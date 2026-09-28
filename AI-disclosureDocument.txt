@@ -1,0 +1,33 @@
+Generative AI Tool Used:
+
+I used ChatGPT (GPT-5.6 Luna) to assist with the development and review of my C++ IPv4 extraction program.
+
+Date Consulted:
+
+September 22, 2026.
+
+How AI Was Used:
+
+I provided ChatGPT with the complete assignment requirements, including the IPv4 grammar, port requirements, restrictions on library functions, required output format, and examples. I asked the AI to generate a C++ implementation using character-by-character parsing and manual digit accumulation.
+
+I then reviewed the generated code against the assignment requirements instead of accepting it without testing.
+
+Testing and Critical Review:
+
+I tested the program using valid addresses, invalid addresses, boundary values, malformed ports, leading-zero cases, extra punctuation, and multiple valid addresses in the same input line as provided in TestCases.txt file.
+
+I specifically checked how the program handles garbage characters separating candidate tokens and how it handles multiple valid IPv4 addresses in one input line.
+
+Modifications and Review:
+
+I reviewed the AI-generated implementation to ensure that digit accumulation was performed manually and that prohibited functions such as stoi, atoi, strtol, regular expressions, and IPv4 address parsing libraries were not used.
+
+I also reviewed the decimal IPv4 calculation and the validation of octet and port ranges, leading zeros, candidate boundaries, and malformed punctuation.
+
+Verification Statement:
+
+I understand the logic and purpose of every line of the submitted program. I did not rely solely on the fact that the program compiled; I tested the implementation against normal, boundary, malformed, and ambiguous inputs.
+
+The program was tested using the required sample cases as well as additional test cases designed to check edge conditions.
+
+Any changes made during development were reviewed and retested to ensure that they did not introduce new errors.
